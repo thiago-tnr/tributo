@@ -1,0 +1,176 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url("https://a-static.besthdwallpaper.com/t-challa-wallpaper-2048x1536-32251_26.jpg");
+    background-size:100%;
+	background-attachment: fixed;
+}
+.container{
+	display:flex;
+    justify-content:center;
+	align-items: center;
+}
+.info{
+	text-align:center;
+	border-bottom:1px solid gray;
+	height:100px;
+	width:100%;
+}
+.info h1{
+	color:white;
+	text-transform:uppercase;
+	font-family:Arial;
+	font-size:20pt;
+	margin-bottom:0px;
+	margin-top:25px;
+}
+.info h6{
+	color:white;
+	text-transform:uppercase;
+	font-family:Arial;
+	margin-top:5px;
+}
+.foto{
+	display:flex;
+    justify-content:space-between;
+	align-items: center;
+	height:500px;
+	margin-bottom:10px;
+	border-bottom:1px solid gray;
+	background-color:black;
+}
+.info_wiki{
+	display:flex;
+	color:white;
+	text-align:justify;
+	margin:10px;
+	height:325px;
+	font-family: 'Abel', sans-serif;
+	font-size:12.5pt;
+	padding:10px;
+	border-right: 2px solid gray;
+}
+.fundo{
+	display:flex;
+	flex-direction:column;
+	background-color: gray;
+	width:202px;
+	height:325px;
+	margin-right:5px;
+	border-bottom:2px solid purple;
+}
+#tchala{
+	border: 1px solid gray;
+	width:200px;
+}
+.imagem h6{
+	margin:0;
+	text-indent:20px;
+	font-style: italic;
+	font-family:arial;
+}
+.trabalhos{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:white;
+	background-color:gray;
+	width:200px;
+	height:40px;
+	border-radius:5px;
+	border-top:5px;
+}
+.flimes{
+	display:flex;
+	justify-content:center;
+}
+#um, #dois, #tres, #quatro, #cinco,
+#seis, #sete, #oito, #nove, #dez{
+	display:flex;
+	align-items:center;
+	height:50px;
+	margin:10px;
+	width:400px;
+	border-radius:10px;
+	margin-top: 50px;
+}
+
+#um, #dois, #tres, #quatro, #cinco{
+	background-color:#e5e5e5;	
+}
+#seis, #sete, #oito, #nove, #dez{
+	background-color:gray;
+}
+#seis{
+	margin-top: 100px;
+}
+.esquerda h6{
+	margin-left:10px;
+	font-size:12pt;
+	text-transform:uppercase;
+	border-left:3px solid darkblue;
+	font-style: italic;
+	padding:5px;
+}
+.direita h6 {
+	margin-left:10px;
+	font-size:12pt;
+	text-transform:uppercase;
+	border-left:3px solid darkblue;
+	font-style: italic;
+	color:#eee;
+	padding:5px;
+}
+.marvel{
+	display:flex;
+	justify-content:center;
+	border-top:1px solid gray;
+	background-color:black;
+}
+.tributo_marvel h1{
+	display:flex;
+	justify-content:center;
+	color:white;
+	background-color:gray;
+	width:600px;
+	height:30px;
+	border-radius:5px;
+	padding-top:10px;
+	text-transform:uppercase;
+	font-style: italic;
+	font-size:15pt;
+}
+.vídeo{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	margin-bottom:10px;
+}
+footer{
+	display:flex;
+	justify-content:center;
+	color:white;
+	border-top:1px solid gray;
+}
+.fim{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:60px;
+	margin-top:5px;
+	font-size:12pt;
+	border-left:30px;
+}
+.fim p{
+	font-size:12pt;
+	border-left:30px;
+	text-decoration:none;
+}
+.fim a{
+	text-decoration:none;
+	color:white;
+}
+.fim a:hover{
+	text-decoration:underline;
+	color:red;
+}
